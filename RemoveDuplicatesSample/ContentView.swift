@@ -2,15 +2,31 @@
 //  ContentView.swift
 //  RemoveDuplicatesSample
 //
-//  Created by Matthias Ludwig on 27.01.21.
+
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = SearchViewModel()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+                TextField("Enter your query", text: $viewModel.query, onCommit: {
+                    viewModel.search(for: viewModel.query)
+                })
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .padding()
+                .autocapitalization(.none)
+                .disableAutocorrection(true)
+
+                Spacer()
+            }
+
+
+        }
+        .navigationTitle("Search")
     }
 }
 

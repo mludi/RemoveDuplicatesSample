@@ -11,6 +11,7 @@
 		3B93D29325C1A14700B3DB85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B93D29225C1A14700B3DB85 /* ContentView.swift */; };
 		3B93D29525C1A14800B3DB85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B93D29425C1A14800B3DB85 /* Assets.xcassets */; };
 		3B93D29825C1A14800B3DB85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B93D29725C1A14800B3DB85 /* Preview Assets.xcassets */; };
+		3B93D2A125C1A15500B3DB85 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B93D2A025C1A15500B3DB85 /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3B93D29425C1A14800B3DB85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B93D29725C1A14800B3DB85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B93D29925C1A14800B3DB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B93D2A025C1A15500B3DB85 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = ../../SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3B93D29025C1A14700B3DB85 /* RemoveDuplicatesSampleApp.swift */,
 				3B93D29225C1A14700B3DB85 /* ContentView.swift */,
+				3B93D2A025C1A15500B3DB85 /* SearchViewModel.swift */,
 				3B93D29425C1A14800B3DB85 /* Assets.xcassets */,
 				3B93D29925C1A14800B3DB85 /* Info.plist */,
 				3B93D29625C1A14800B3DB85 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B93D2A125C1A15500B3DB85 /* SearchViewModel.swift in Sources */,
 				3B93D29325C1A14700B3DB85 /* ContentView.swift in Sources */,
 				3B93D29125C1A14700B3DB85 /* RemoveDuplicatesSampleApp.swift in Sources */,
 			);

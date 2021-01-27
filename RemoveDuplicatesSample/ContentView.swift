@@ -21,7 +21,7 @@ struct ContentView: View {
                 .autocapitalization(.none)
                 .disableAutocorrection(true)
 
-                Spacer()
+                Spacer()                
             }
 
 
